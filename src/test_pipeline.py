@@ -1,6 +1,6 @@
 import unittest
-from model_pipeline import prepare_data, train_model, evaluate_model
-from model_pipeline import save_data, load_data
+from src.model_pipeline import prepare_data, train_model, evaluate_model
+from src.model_pipeline import save_data, load_data
 
 
 class TestPipeline(unittest.TestCase):

@@ -3,7 +3,7 @@ import unittest
 import pandas as pd
 import os
 import datetime
-from model_pipeline import prepare_data, train_model, evaluate_model
+from src.model_pipeline import prepare_data, train_model, evaluate_model
 from sklearn.linear_model import LogisticRegression
 
 class TestPipeline(unittest.TestCase):
@@ -59,7 +59,7 @@ class TestPipeline(unittest.TestCase):
         self.assertEqual(data_test.shape, (1, 2))
 
     def test_train_model(self):
-	print("\n🔎 Test d'entraînement du modèle...")
+	    print("\n🔎 Test d'entraînement du modèle...")
         X_train = self.data_train.drop(columns=['Churn'])
         y_train = self.data_train['Churn']
         model = train_model(X_train, y_train)

@@ -1,4 +1,4 @@
-from model_pipeline import (
+from src.model_pipeline import (
     prepare_data,
     train_model,
     evaluate_model,

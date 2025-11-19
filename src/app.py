@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from model_pipeline import prepare_data, train_model, save_model, load_model
+from src.model_pipeline import prepare_data, train_model, save_model, load_model
 from fastapi.responses import FileResponse
 import csv
 import pandas as pd
