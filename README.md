@@ -17,47 +17,6 @@ The goal of this project is to refactor my original ML project into a production
 
 ---
 
-## 📁 Project Structure
-
-📦 mlops-project
-│
-├── api/
-│ └── main.py
-│
-├── src/
-│ ├── app.py
-│ ├── model_pipeline.py
-│ ├── retrain_model.py
-│ └── test_pipeline.py
-│
-├── data/
-│ └── data_split.pkl
-│
-├── monitoring/
-│ ├── mlruns/
-│ ├── mlflow.db
-│ ├── mlartifacts/
-│ ├── logs/
-│ ├── metrics.csv
-│ ├── metrics_export.csv
-│ └── model_report.html
-│
-├── static/
-│ └── images/
-│ ├── confusion_matrix.png
-│ └── roc_curve.png
-│
-├── tests/
-│ └── test_pipeline.py
-│
-├── docker-compose.yml
-├── dockerfile
-├── Makefile
-├── requirements.txt
-├── .gitignore
-└── README.md
-
----
 
 ## 🔧 Modularization
 
