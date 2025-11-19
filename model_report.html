@@ -1,0 +1,153 @@
+<h1>Rapport de Modèle</h1><h2>Métriques de Classification</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>f1-score</th>
+      <th>support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>False</th>
+      <td>0.945946</td>
+      <td>1.000000</td>
+      <td>0.972222</td>
+      <td>455.000000</td>
+    </tr>
+    <tr>
+      <th>True</th>
+      <td>1.000000</td>
+      <td>0.670886</td>
+      <td>0.803030</td>
+      <td>79.000000</td>
+    </tr>
+    <tr>
+      <th>accuracy</th>
+      <td>0.951311</td>
+      <td>0.951311</td>
+      <td>0.951311</td>
+      <td>0.951311</td>
+    </tr>
+    <tr>
+      <th>macro avg</th>
+      <td>0.972973</td>
+      <td>0.835443</td>
+      <td>0.887626</td>
+      <td>534.000000</td>
+    </tr>
+    <tr>
+      <th>weighted avg</th>
+      <td>0.953943</td>
+      <td>0.951311</td>
+      <td>0.947192</td>
+      <td>534.000000</td>
+    </tr>
+  </tbody>
+</table><h2>Importance des Features</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Feature</th>
+      <th>Importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>8</th>
+      <td>Total day charge</td>
+      <td>0.144537</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Total day minutes</td>
+      <td>0.134127</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Customer service calls</td>
+      <td>0.109144</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>International plan</td>
+      <td>0.101411</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Total eve minutes</td>
+      <td>0.064771</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Total eve charge</td>
+      <td>0.059844</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Total intl calls</td>
+      <td>0.057702</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Total intl minutes</td>
+      <td>0.049282</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Total intl charge</td>
+      <td>0.041145</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Total night charge</td>
+      <td>0.033667</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Total day calls</td>
+      <td>0.031380</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Total night minutes</td>
+      <td>0.030707</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Total night calls</td>
+      <td>0.026150</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Account length</td>
+      <td>0.025302</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Total eve calls</td>
+      <td>0.024465</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Number vmail messages</td>
+      <td>0.022391</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>State</td>
+      <td>0.020071</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Voice mail plan</td>
+      <td>0.016449</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Area code</td>
+      <td>0.007454</td>
+    </tr>
+  </tbody>
+</table><h2>Matrice de Confusion</h2><img src="reports/confusion_matrix.png" width="600"><h2>Courbe ROC</h2><img src="reports/roc_curve.png" width="600">
