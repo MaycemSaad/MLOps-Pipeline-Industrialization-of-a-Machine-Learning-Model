@@ -70,40 +70,6 @@ The pipeline covers the complete lifecycle of a machine learning model:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## Project Structure
-
-```
-mlops-pipeline/
-│
-├── api/
-│   └── main.py                  # FastAPI application and endpoint definitions
-│
-├── models/                      # Serialized model artifacts
-│
-├── mlruns/                      # MLflow tracking directory (auto-generated)
-│
-├── monitoring/
-│   ├── elasticsearch/           # Elasticsearch configuration
-│   └── kibana/                  # Kibana dashboards
-│
-├── tests/
-│   └── test_pipeline.py         # Unit and integration tests
-│
-├── model_pipeline.py            # Preprocessing, training, and inference logic
-├── retrain_model.py             # Automated retraining workflow
-├── app.py                       # Central pipeline orchestrator
-│
-├── Makefile                     # CI/CD automation targets
-├── Dockerfile                   # Container definition
-├── docker-compose.yml           # Multi-service orchestration
-├── requirements.txt             # Python dependencies
-└── README.md
-```
-
----
-
 ## Modularization
 
 The original Jupyter notebook was decomposed into independent, single-responsibility Python modules to improve maintainability, testability, and reusability.
